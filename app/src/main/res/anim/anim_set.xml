@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:shareInterpolator="false"
+    android:interpolator="@android:anim/anticipate_interpolator">
+
+    <alpha
+        android:fromAlpha="0.3"
+        android:toAlpha="1"
+        android:startOffset="500"
+        android:duration="5000"
+        android:repeatMode="reverse"
+        android:repeatCount="-1"
+        android:fillEnabled="true"
+        android:fillBefore="true">
+    </alpha>
+
+    <rotate
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromDegrees="90"
+        android:toDegrees="1080"
+        android:startOffset="500"
+        android:duration="5000"
+        android:repeatMode="reverse"
+        android:repeatCount="-1"
+        android:fillEnabled="true"
+        android:fillBefore="true"
+        android:interpolator="@android:anim/overshoot_interpolator">
+    </rotate>
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="0.5"
+        android:toXScale="1.5"
+        android:fromYScale="0.5"
+        android:toYScale="1.5"
+        android:startOffset="500"
+        android:duration="5000"
+        android:repeatMode="reverse"
+        android:repeatCount="-1"
+        android:fillEnabled="true"
+        android:fillBefore="true">
+    </scale>
+
+    <translate
+        android:fromXDelta="25"
+        android:toXDelta="500"
+        android:fromYDelta="25"
+        android:toYDelta="1000"
+        android:startOffset="500"
+        android:duration="5000"
+        android:repeatMode="reverse"
+        android:repeatCount="-1"
+        android:fillEnabled="true"
+        android:fillBefore="true">
+    </translate>
+
+    <!--android:repeatMode="restart"-->
+    <!--android:repeatCount="-1"-->
+
+    <!--android:repeatMode="reverse" 以set设置的为准,如果set没有设置则以具体的动画为准-->
+    <!--android:duration="5000" 以set设置的为准,如果set没有设置则以具体的动画为准-->
+    <!--android:startOffset="5000" 每个动画的延迟时长等于set的startOffset的时长加上动画自己的startOffset时长-->
+
+    <!--android:fillAfter="true" 仅以set设置的为准-->
+
+    <!--android:fillEnabled="true" 仅以动画设置的为准-->
+    <!--android:fillBefore="false" 仅以具体动画设置的为准-->
+
+</set>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%"
+    android:pivotY="-20%"
+    android:fromDegrees="90"
+    android:toDegrees="520"
+    android:repeatMode="restart"
+    android:repeatCount="0"
+    android:duration="6000"
+    android:startOffset="5000"
+    android:fillAfter="true"
+    android:fillEnabled="true"
+    android:fillBefore="false"
+    android:interpolator="@android:anim/linear_interpolator">
+</rotate>
+
+<!--android:fillAfter 用于确定是否保持动画结束时的值，如果设置为true，控件动画结束时，将保持动画最后时的状态，为false就是不保持
+    android:fillBefore 用于确定动画开始时，View的动画属性值；这里所说的动画开始不是指的调用startAnimation方法，而是界面中动画真正开始动的时候。
+    从调用startAnimation到动画真正开始时，中间有一个startOffset阶段，若fillBefore为true，则在startOffset阶段时，将动画属性设置为初始值，
+    若为false，则为View本身的初始值。
+    android:fillEnabled用来控制fillBefore属性是否有效，若为true，则fillBefore生效；若为false则不管设置fillBefore为true还是false，都不起作用。
+    但是，划重点了,当fillEnabled为false时，我们假设fillBefore为true。也就是说，当 fillEnabled为false是，不管fillBefore是什么值，
+    在startOffset阶段都将初始值设置为动画属性的初始值。-->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/bless_0_1" android:duration="100"/>
+    <item android:drawable="@drawable/bless_1_1" android:duration="100"/>
+    <item android:drawable="@drawable/bless_2_1" android:duration="100"/>
+    <item android:drawable="@drawable/bless_3_1" android:duration="100"/>
+    <item android:drawable="@drawable/bless_4_1" android:duration="100"/>
+    <item android:drawable="@drawable/bless_5_1" android:duration="100"/>
+    <item android:drawable="@drawable/bless_6_1" android:duration="100"/>
+
+    <!--<item android:drawable="@drawable/candle_0_1" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/candle_1_1" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/candle_2_1" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/candle_3_1" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/candle_4_1" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/candle_5_1" android:duration="100"/>-->
+
+
+    <!--<item android:drawable="@drawable/image_emoticon101" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon102" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon103" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon104" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon105" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon106" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon107" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon108" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon109" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon110" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon111" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon112" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon113" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon114" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon115" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon116" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon117" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon118" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon119" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon120" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon121" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon122" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon123" android:duration="100"/>-->
+    <!--<item android:drawable="@drawable/image_emoticon124" android:duration="100"/>-->
+
+
+</animation-list>
